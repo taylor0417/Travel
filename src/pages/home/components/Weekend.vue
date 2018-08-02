@@ -26,22 +26,22 @@ export default {
         imgUrl: 'http://img1.qunarzz.com/sight/source/1606/85/c6b6bad1b977e.jpg_r_640x214_5c638941.jpg',
         desc: '轻松水上漂，任我乐逍遥'
       }, {
-        id: '0001',
+        id: '0002',
         title: '北京清凉避暑胜地',
         imgUrl: 'http://img1.qunarzz.com/sight/source/1505/53/02091f1ee43d0a.jpg_r_640x214_2e3256b1.jpg',
         desc: '到大自然中享受“天然空调”的清凉'
       }, {
-        id: '0001',
+        id: '0003',
         title: '北京必游TOP10',
         imgUrl: 'http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg',
         desc: '来北京必去的景点非这些地方莫属'
       }, {
-        id: '0001',
+        id: '0004',
         title: '寻找北京的皇城范儿',
         imgUrl: 'http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg',
         desc: '数百年的宫廷庙宇，至今依旧威严霸气'
       }, {
-        id: '0001',
+        id: '0005',
         title: '学生最爱的博物馆',
         imgUrl: 'http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg',
         desc: '周末干嘛？北京很多博物馆已经免费开放啦'
