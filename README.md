@@ -2,6 +2,12 @@
 
 > 仿制去哪网
 
+## 项目所含技术
+- Webpack打包工具的使用
+- Vue组件化开发
+- Axios实现模拟ajax获得数据并渲染页面
+- Swiper插件的使用，快速实现轮播功能
+
 ## Build Setup
 
 ``` bash
