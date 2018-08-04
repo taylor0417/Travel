@@ -39,12 +39,21 @@ export default {
     },
     getHomeInfoSucc (res) {
       res = res.data
-      if (res.ret && res.data) {
-        const data = res.data
-        this.swiperList = data.swiperList
-        this.iconList = data.iconList
-        this.recommendList = data.recommendList
-        this.weekendList = data.weekendList
+      var currentCity = this.$store.state.city
+      if (res.ret) {
+        if (res[currentCity]) {
+          const data = res[currentCity]
+          this.swiperList = data.swiperList
+          this.iconList = data.iconList
+          this.recommendList = data.recommendList
+          this.weekendList = data.weekendList
+        } else {
+          const data = res['北京']
+          this.swiperList = data.swiperList
+          this.iconList = data.iconList
+          this.recommendList = data.recommendList
+          this.weekendList = data.weekendList
+        }
       }
     }
   },
