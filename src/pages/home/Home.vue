@@ -54,9 +54,9 @@ export default {
         this.iconList = data.iconList
         this.recommendList = data.recommendList
         this.weekendList = data.weekendList
-        }
       }
-    },
+    }
+  },
   mounted () {
     this.lastCity = this.city
     this.getHomeInfo()

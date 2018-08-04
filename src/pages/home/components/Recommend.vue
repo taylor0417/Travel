@@ -2,7 +2,13 @@
   <div class="">
     <div class="recommend-title"><img class="heart" src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png" alt="">猜你喜欢</div>
     <ul>
-      <li class="item" v-for="item of list" :key="item.id">
+      <router-link
+          tag="li"
+          class="item"
+          v-for="item of list"
+          :key="item.id"
+          :to="'/detail/' + item.id"
+      >
         <div class="img-wrapper">
           <span class="tips">购买随用</span>
           <img class="item-img" :src="item.imgUrl" alt="">
@@ -26,7 +32,7 @@
             <span class="location">{{item.location}}</span>
           </p>
         </div>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>
