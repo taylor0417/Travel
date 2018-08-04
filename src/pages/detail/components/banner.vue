@@ -1,7 +1,7 @@
 <template>
   <div class="banner" @click="handleBannerClick">
     <img class="banner-img" src="//img1.qunarzz.com/sight/p0/1803/12/126471e0966aca5ba3.img.jpg_600x330_8b04e389.jpg" alt="">
-    <span class="iconfont banner-back">&#xe624;</span>
+    <span class="iconfont banner-back" @click.stop="handleBannerBack">&#xe624;</span>
     <div class="banner-info">
       <div class="banner-number">
         <span class="iconfont header-number-icon">&#xe6dd;</span>38
@@ -26,12 +26,14 @@ export default {
   },
   methods: {
     handleBannerClick () {
-      console.log(1)
       this.showGallary = true
     },
     handleGallaryClose () {
-      console.log(3)
       this.showGallary = false
+    },
+    handleBannerBack () {
+      this.showGallary = false
+      this.$router.push('/')
     }
   },
   components: {

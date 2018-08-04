@@ -34,7 +34,6 @@ export default {
   },
   methods: {
     handleGallaryClick () {
-      console.log(2)
       this.$emit('close')
     }
   }
